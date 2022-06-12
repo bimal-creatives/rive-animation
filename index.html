@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>rive - animation</title>
+      
+</head>
+<body>
+    <canvas id="riveCanvas1" width="740" height="740" style="border-radius:var(--border-radius); width:100%">
+        <div style="border:1px solid rgb(20, 19, 19); padding:10px; font-size:90%; border-radius:10px;">This is supposed to show an animation! If you're viewing this in your email, please <a href="/rives-web-runtime/">view this post in a browser</a>.</div>
+      </canvas>
+      <div class="buttons">
+        Wipers 
+        <label class="switch">
+          <input type="checkbox" id="wiperToggle">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    <script src="https://unpkg.com/rive-canvas@0.6.1/rive.js"></script>
+    <script  src="main.js"></script>
+    
+    
+    <canvas id="riveCanvas"></canvas>
+    <script src="https://unpkg.com/rive-canvas@0.0.10/rive.js"></script>
+    <script  src="main2.js"></script>
+</body>
+</html>
